@@ -1,0 +1,251 @@
+{
+  "configById": {
+    "3D!18i6zy7": {
+      "layers": {
+        "845139cb-26bc-40b3-8161-8ab60af4baf5": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "845139cb-26bc-40b3-8161-8ab60af4baf5",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "order": 1
+        }
+      },
+      "cameraState": {
+        "distance": 9.26582460319321,
+        "perspective": true,
+        "phi": 78.91418563922876,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          -1.8412924163032929,
+          -0.013853835583604972,
+          1.0362431983657522e-16
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": -102.21541155867008,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    },
+    "Image!3mnp456": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/torobo/camera/fisheye/compressed"
+      }
+    },
+    "RawMessages!os6rgs": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/torobo/joint_states"
+    },
+    "Plot!32y41d6": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[10]",
+          "enabled": true,
+          "label": "left_arm/joint_1"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[11]",
+          "enabled": true,
+          "label": "left_arm/joint_2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[12]",
+          "enabled": true,
+          "label": "left_arm/joint_3"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[13]",
+          "enabled": true,
+          "label": "left_arm/joint_4"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[14]",
+          "enabled": true,
+          "label": "left_arm/joint_5"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[15]",
+          "enabled": true,
+          "label": "left_arm/joint_6"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[16]",
+          "enabled": true,
+          "label": "left_arm/joint_7"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[17]",
+          "enabled": true,
+          "label": "right_arm/joint_1"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[18]",
+          "enabled": true,
+          "label": "right_arm/joint_2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[19]",
+          "enabled": true,
+          "label": "right_arm/joint_3"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[20]",
+          "enabled": true,
+          "label": "right_arm/joint_4"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[21]",
+          "enabled": true,
+          "label": "right_arm/joint_5"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[22]",
+          "enabled": true,
+          "label": "right_arm/joint_6"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[23]",
+          "enabled": true,
+          "label": "right_arm/joint_7"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[24]",
+          "enabled": true,
+          "label": "torso/joint_1"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[25]",
+          "enabled": true,
+          "label": "torso/joint_2"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/torobo/joint_states.position[26]",
+          "enabled": true,
+          "label": "torso/joint_3"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "layout": {
+    "first": "3D!18i6zy7",
+    "second": {
+      "first": "Image!3mnp456",
+      "second": {
+        "first": "RawMessages!os6rgs",
+        "second": "Plot!32y41d6",
+        "direction": "column"
+      },
+      "direction": "column",
+      "splitPercentage": 30
+    },
+    "direction": "row",
+    "splitPercentage": 46.23389494549058
+  }
+}
